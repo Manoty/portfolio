@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, section {
+      padding: 20px;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+    nav {
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    section {
+      margin-top: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 20px;
+    }
+    .grid-item {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Image Links</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a> |
+  <a href="#gallery">Gallery</a> |
+  <a href="#menu">Menu</a>
+</nav>
+
+<section id="home">
+  <h2>Home</h2>
+  <p>Welcome to our website! Here's an image related to technology:</p>
+  <a href="https://example.com/technology" target="_blank">
+    <img src="src/img/Premium%20Photo%20_%20Future%20artificial%20intelligence%20robot%20and%20cyborg_.jpeg" alt="Technology">
+  </a>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="grid-container">
+    <div class="grid-item">
+      <a href="https://example.com/nature1" target="_blank">
+        <img src="src/js/10%20photos%20qui%20vont%20vous%20donner%20envie%20de%20vous%20mettre%20au%20vert.jpeg" alt="Nature 1">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a href="https://example.com/nature2" target="_blank">
+        <img src="src/img/10%20Days%20in%20Croatia_%20The%20Perfect%20Croatia%20Itinerary%20-%20Road%20Affair%20(6).jpeg" alt="Nature 2">
+      </a>
+    </div>
+    <div class="grid-item">
+      <a href="https://example.com/nature3" target="_blank">
+        <img src="src/img/100%20Fantastic%20Names%20for%20a%20Lake%20House%20-%20Melanie%20Jade%20Design.jpeg" alt="Nature 3">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Menu</h2>
+  <ul>
+    <li><a href="https://example.com/food1" target="_blank">Pizza</a></li>
+    <li><a href="https://example.com/food2" target="_blank">Sushi</a></li>
+    <li><a href="https://example.com/food3" target="_blank">Burger</a></li>
+  </ul>
+</section>
+
+</body>
+</html>
